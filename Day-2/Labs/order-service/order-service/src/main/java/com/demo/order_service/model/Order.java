@@ -3,6 +3,8 @@ package com.demo.order_service.model;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.*;
 
+@Entity
+@Table(name = "orders")
 public class Order {
 	
 	@Id
