@@ -1,9 +1,7 @@
-package com.demo.order.controller;
+package com.demo.order_service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
-import com.demo.order.service.OrderService;
 
 @RestController
 @RequestMapping("/orders")
